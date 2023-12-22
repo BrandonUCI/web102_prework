@@ -19,8 +19,16 @@ body {
     margin-top: -10px;
 }
 
+/* Changes made here. */
 .stats-container {
     display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
