@@ -43,7 +43,10 @@ GIF created with ScreenToGif
 ## Notes
 
 Describe any challenges encountered while building the app:
+
 Funnily enough, getting the gif to show up properly on the GitHub readme was the most difficult task. ScreenToGif asks you to submit a resolution, but if you submit the resolution of your monitor, then you can't access the software's interface. Then, once you've created your gif, you not only have to upload it to imgur, but you have to make sure you get specifically the imgur's video link to bypass its mature filter check. Then, you need to manually modify the linked from .mp4 to .gif. Even here, the display doesn't show properly.
+
+Also, for some reason the links in my CodePath Prework website wouldn't function properly. I was unable to acess the "Submitting a project via GitHub" resource on the final challenge checkpoint.
 
 ## License
 
