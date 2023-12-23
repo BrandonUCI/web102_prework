@@ -10,6 +10,22 @@ import GAMES_DATA from './games.js';
 // create a list of objects to store the data about the games using JSON.parse
 const GAMES_JSON = JSON.parse(GAMES_DATA)
 
+
+// Create functions which scroll view to specified elements when called
+function scrollStats() {
+    document.getElementById('stats-display').scrollIntoView();
+}
+
+function scrollGames() {
+    document.getElementById('games-display').scrollIntoView();
+}
+
+// Enable the header buttons
+const statsBtn = document.getElementById("stats-btn");
+const gamesBtn = document.getElementById("games-btn");
+
+statsBtn.addEventListener("click", scrollStats);
+gamesBtn.addEventListener("click", scrollGames);
 // remove all child elements from a parent element in the DOM
 function deleteChildElements(parent) {
     while (parent.firstChild) {
@@ -162,11 +178,11 @@ const displayStr =
 // create a new DOM element containing the template string and append it to the description container
 let paragraphElement = document.createElement('p');
 paragraphElement.innerHTML = displayStr;
-
 descriptionContainer.appendChild(paragraphElement);
 
 
 /************************************************************************************
+ * Secret Key: toLocaleString<div>1ivy
  * Challenge 7: Select & display the top 2 games
  * Skills used: spread operator, destructuring, template literals, sort 
  */
@@ -179,7 +195,14 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 });
 
 // use destructuring and the spread operator to grab the first and second games
+let [first, second, ...others] = sortedGames;
 
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+let firstP = document.createElement("p");
+firstP.innerHTML = `${first.name}`;
+firstGameContainer.appendChild(firstP);
 
 // do the same for the runner up item
+let secondP = document.createElement('p');
+secondP.innerHTML = `${second.name}`;
+secondGameContainer.appendChild(secondP);
