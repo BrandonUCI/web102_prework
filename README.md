@@ -25,6 +25,10 @@ Here's a walkthrough of implemented features:
 
 <img src='https://i.imgur.com/tWEZduJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+For some reason, the img isn't showing so here's the respective links:
+https://imgur.com/a/EY5zBzd (Original Imgur Link)
+https://i.imgur.com/tWEZduJ.mp4 (Original Imgur source link, not compatible with html img)
+https://i.imgur.com/tWEZduJ.gif  (Modified imgur source link, shows as invisible on github)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
 <!-- Recommended tools:
@@ -35,7 +39,7 @@ GIF created with ScreenToGif
 ## Notes
 
 Describe any challenges encountered while building the app:
-Funnily enough, getting the gif to show up properly on the GitHub readme was the most difficult task. ScreenToGif asks you to submit a resolution, but if you submit the resolution of your monitor, then you can't access the software's interface. Then, once you've created your gif, you not only have to upload it to imgur, but you have to make sure you get specifically the imgur's video link to bypass its mature filter check. Then, you need to manually modify the linked from .mp4 to .gif. Only then does the image display properly
+Funnily enough, getting the gif to show up properly on the GitHub readme was the most difficult task. ScreenToGif asks you to submit a resolution, but if you submit the resolution of your monitor, then you can't access the software's interface. Then, once you've created your gif, you not only have to upload it to imgur, but you have to make sure you get specifically the imgur's video link to bypass its mature filter check. Then, you need to manually modify the linked from .mp4 to .gif. Even here, the display doesn't show properly.
 
 ## License
 
