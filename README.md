@@ -29,6 +29,10 @@ For some reason, the img isn't showing so here's the respective links:
 https://imgur.com/a/EY5zBzd (Original Imgur Link)
 https://i.imgur.com/tWEZduJ.mp4 (Original Imgur source link, not compatible with html img)
 https://i.imgur.com/tWEZduJ.gif  (Modified imgur source link, shows as invisible on github)
+
+Here's an attempted way to display GIFS on GitHub I googled:
+![](https://i.imgur.com/tWEZduJ.gif)
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
 <!-- Recommended tools:
