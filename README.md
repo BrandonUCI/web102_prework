@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/tWEZduJ.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/tWEZduJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
@@ -34,7 +34,8 @@ GIF created with ScreenToGif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Describe any challenges encountered while building the app:
+Funnily enough, getting the gif to show up properly on the GitHub readme was the most difficult task. ScreenToGif asks you to submit a resolution, but if you submit the resolution of your monitor, then you can't access the software's interface. Then, once you've created your gif, you not only have to upload it to imgur, but you have to make sure you get specifically the imgur's video link to bypass its mature filter check. Then, you need to manually modify the linked from .mp4 to .gif. Only then does the image display properly
 
 ## License
 
